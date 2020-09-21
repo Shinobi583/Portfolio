@@ -89,6 +89,7 @@ header
     display: block;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100vw;
     opacity: 0.98;
     visibility: hidden;
@@ -152,8 +153,8 @@ header
 {
     background-image: url(../img/Upper-Falls.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+    background-position: center;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -260,5 +261,11 @@ li
 
     .menu-btn {
         visibility: hidden;
+    }
+
+    #hero {
+        background-size: cover;
+        background-position: 0;
+        width: 100%;
     }
 }

@@ -88,6 +88,7 @@ header {
   display: block;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100vw;
   opacity: 0.98;
   visibility: hidden;
@@ -189,8 +190,8 @@ header {
 #hero {
   background-image: url(../img/Upper-Falls.jpg);
   background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
+  background-position: center;
+  width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,7 +276,7 @@ li {
   .nav .menu-nav {
     display: -ms-inline-grid;
     display: inline-grid;
-    -ms-grid-columns: (1fr)6;
+    -ms-grid-columns: (1fr)[6];
         grid-template-columns: repeat(6, 1fr);
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -295,6 +296,11 @@ li {
   }
   .menu-btn {
     visibility: hidden;
+  }
+  #hero {
+    background-size: cover;
+    background-position: 0;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */
