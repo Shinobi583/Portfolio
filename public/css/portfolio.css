@@ -209,9 +209,14 @@ header {
   font-weight: 700;
 }
 
+.skill {
+  border-radius: 1rem;
+}
+
 .skill:hover {
-  -webkit-box-shadow: 0px 6px 2px 3px rgba(0, 0, 0, 0.09), 0 3px 8px rgba(0, 0, 0, 0.09), 0 4px 13px rgba(0, 0, 0, 0.13);
-          box-shadow: 0px 6px 2px 3px rgba(0, 0, 0, 0.09), 0 3px 8px rgba(0, 0, 0, 0.09), 0 4px 13px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 6px 2px 3px rgba(0, 0, 0, 0.5), 0 3px 8px rgba(0, 0, 0, 0.09), 0 4px 13px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 6px 2px 3px rgba(0, 0, 0, 0.5), 0 3px 8px rgba(0, 0, 0, 0.09), 0 4px 13px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
 }
 
 #html5 {
@@ -230,6 +235,11 @@ header {
 
 #bootstrap {
   background-color: #563d7c;
+  color: white;
+}
+
+#mysql {
+  background-color: #045f86;
   color: white;
 }
 
