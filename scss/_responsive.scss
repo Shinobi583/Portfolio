@@ -1,0 +1,57 @@
+@media (min-width: 576px) {
+
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        visibility: visible;
+        height: 6%;
+        display: flex;
+
+        .menu-nav {
+            display: inline-grid;
+            grid-template-columns: repeat(6, 1fr);
+            transform: translateY(0);
+            height: 100%;
+            width: 97vw;
+            padding: 0;
+
+            &-item {
+                transform: translateX(0);
+                display: inline;
+                justify-self: center;
+            }
+
+            &-link {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    .skill {
+        flex: 0 0 33.33333%;
+    }
+
+    #hero {
+        background-size: cover;
+        background-position: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+}
